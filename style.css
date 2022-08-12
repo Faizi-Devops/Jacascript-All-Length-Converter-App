@@ -1,0 +1,37 @@
+.A{
+    background-image: linear-gradient(to right, red , yellow);
+    height: 100vh;
+    padding-top: 160px;
+    
+}
+.B{ 
+    height: 360px;
+    
+}
+.C{
+    background-color: yellow;
+    height: 360px;
+    margin: 0px;
+    padding: 0px;
+}
+.D{
+    background-color: orange;
+    height: 80px;
+    
+}
+.head{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px #FF0000;
+    padding-top: 15px;
+}
+.E{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px #0984e3;
+    animation: blinker 1s linear infinite;   
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
